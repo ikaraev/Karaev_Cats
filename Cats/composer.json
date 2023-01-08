@@ -1,0 +1,22 @@
+{
+    "name": "karaev/cats",
+    "description": "Swaps product image on product listing and product page to random cat picture from https://cataas.com/#/",
+    "require": {
+        "php": ">=7.4.0",
+        "magento/module-catalog": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Karaev\\Cats\\": ""
+        }
+    }
+}
